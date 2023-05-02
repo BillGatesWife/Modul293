@@ -13,9 +13,11 @@ body {
   background-color: #eaf1f1;
 }
 
-div {
-  width: 50%;
-  float: right;
+
+.contentall {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 
 table {
@@ -76,7 +78,13 @@ h2 {
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 10px;
+  text-align: center;
 }
+
+.Lorem {
+  width: 50%;
+}
+
 
 form {
   display: flex;
@@ -111,8 +119,16 @@ form button[type="submit"]:hover {
   background-color: #004480;
 }
 
+.googlelink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 p {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 a img {
